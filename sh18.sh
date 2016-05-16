@@ -2,7 +2,7 @@
 
 counter=100
 
-while [ $counter -ge 70 ]
+until [ $counter -le 70 ]
 do 
     echo $counter
     ((counter--))
