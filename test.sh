@@ -10,4 +10,4 @@ if [ $value1 -eq $value2 ]; then
 else
   echo Failed.
 fi
-exit 1
+exit $EXIT
