@@ -8,8 +8,8 @@ if [ $value1 -eq $value2 ]; then
   echo Sucessed!
   EXIT=0
   git config -l
-  git tag 01.05.000
-  git push origin tag 01.05.000
+  git tag 01.06.000
+  git push origin tag 01.06.000
 else
   echo Failed.
 fi
