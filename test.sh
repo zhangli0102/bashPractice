@@ -8,7 +8,7 @@ if [ $value1 -eq $value2 ]; then
   echo Sucessed!
   EXIT=0
   git config -l
-  git tag 01.07.001
+  git tag 01.07.002
   git push --tags
 else
   echo Failed.
