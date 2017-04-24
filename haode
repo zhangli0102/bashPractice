@@ -1,0 +1,39 @@
+
+line 1,{
+line 2,  "name": "command",
+line 3,  "id": "23f87878-a52c-4974-988d-6195dea903ec",
+line 4,  "version": 6,
+line 5,  "command": {
+line 6,    "name": "add_edit_program_templates",
+line 7,    "program": "1111a45e-690b-11e5-8362-448a5beda115",
+line 8,    "update-existing": false,
+line 9,    "templates": [
+line 10,      {
+line 11,        "condition": "(= \"thing\" :thing)",
+line 12,        "content": ["(# \"foo\" :bar)" , "\"Just a string\""],
+line 13,        "media": "(list \"http://www.com/foo.jpg\")",
+line 14,        "handler": "somehandler",
+line 15,        "name": "msg1",
+line 16,        "datetime": "(make-time (date 2017 6 27) (s+ (time 15 30 0) (* (mod (abs (hash (# :first_name :last_name))) 240) 15)) :timezone)"
+line 17,      },
+line 18,      {
+line 19,        "content": [ "\"Just a string\"", "(# \"foo\" :bar)" ],
+line 20,        "media": "(list \"http://www.com/foo.jpg\")",
+line 21,        "name": "msg1",
+line 22,        "datetime": "(make-time (date 2017 6 27) (s+ (time 15 30 0) (* (mod (abs (hash (# :first_name :last_name))) 240) 15)) :timezone)"
+line 23,      },
+line 24,      {
+line 25,        "condition": "(= \"thing\" :thing)",
+line 26,        "content": [ "(# \"foo\" :bar)"],
+line 27,        "name": "msg1",
+line 28,        "datetime": "(make-time (date 2017 6 27) (s+ (time 15 30 0) (* (mod (abs (hash (# :first_name :last_name))) 240) 15)) :timezone)"
+line 29,      },
+line 30,      {
+line 31,        "content": [ "(# \"foo\" :bar)"],
+line 32,        "name": "msg1",
+line 33,        "datetime": "(make-time (date 2017 6 27) (s+ (time 15 30 0) (* (mod (abs (hash (# :first_name :last_name))) 240) 15)) :timezone)"
+line 34,      }
+line 35,    ]
+line 36,  }
+line 37,}
+
