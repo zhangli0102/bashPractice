@@ -1,8 +1,8 @@
 #!/bin/bash
 
-if [ $1 -gt 1000 ]
+if [ $1 = zhangli ]
 then
-  echo What a large number!
+  echo It\'s me!
 fi
 
 date
